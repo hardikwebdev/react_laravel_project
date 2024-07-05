@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: "ToyotaType";
+  src: url("../public/font/toyota-type/ToyotaType-Regular.eot");
+  src: url("../public/font/toyota-type/ToyotaType-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/font/toyota-type/ToyotaType-Regular.woff2") format("woff2"),
+    url("../public/font/toyota-type/ToyotaType-Regular.woff") format("woff"),
+    url("../public/font/toyota-type/ToyotaType-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: "ToyotaType";
+}
+
+.toyota-regular {
+  font-family: "ToyotaType";
+}
+
+.theme-btn {
+  box-shadow: 0px 5px 0px 0px rgba(113, 42, 46, 1) !important;
+}
+
+@tailwind utilities;
+
